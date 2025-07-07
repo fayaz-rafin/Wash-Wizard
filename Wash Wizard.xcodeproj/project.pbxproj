@@ -29,9 +29,30 @@
 		57FC58D02E1C6DB600CD0A91 /* Wash WizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wash WizardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		57FC58EF2E1C73E200CD0A91 /* Exceptions for "Wash Wizard" folder in "Wash WizardTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Secrets.xcconfig,
+			);
+			target = 57FC58C52E1C6DB600CD0A91 /* Wash WizardTests */;
+		};
+		57FC58F02E1C73E200CD0A91 /* Exceptions for "Wash Wizard" folder in "Wash WizardUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Secrets.xcconfig,
+			);
+			target = 57FC58CF2E1C6DB600CD0A91 /* Wash WizardUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		57FC58BB2E1C6DB500CD0A91 /* Wash Wizard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				57FC58EF2E1C73E200CD0A91 /* Exceptions for "Wash Wizard" folder in "Wash WizardTests" target */,
+				57FC58F02E1C73E200CD0A91 /* Exceptions for "Wash Wizard" folder in "Wash WizardUITests" target */,
+			);
 			path = "Wash Wizard";
 			sourceTree = "<group>";
 		};
